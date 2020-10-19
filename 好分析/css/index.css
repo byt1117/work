@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+input,
+button {
+  outline: none;
+  border: none;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+html body {
+  width: 100%;
+  height: 100%;
+}
+html body .box {
+  width: 100%;
+  height: 100%;
+  background-color: #a0d3ac;
+  padding: 98px 118px 98px 118px;
+  box-sizing: border-box;
+}
+html body .box .content {
+  width: 1443px;
+  height: 773px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+html body .box .content dt {
+  width: 763px;
+  height: 582px;
+}
+html body .box .content dt img {
+  width: 763px;
+  height: 582px;
+  display: block;
+}
+html body .box .content dd {
+  width: 800px;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html body .box .content dd ul {
+  width: 482px;
+  height: 482px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+html body .box .content dd ul li {
+  width: 482px;
+  height: 46px;
+  margin-top: 8px;
+  position: relative;
+}
+html body .box .content dd ul li i {
+  position: absolute;
+  top: 12px;
+}
+html body .box .content dd ul li button {
+  width: 482px;
+  height: 42px;
+  background-color: #11be82;
+  text-align: center;
+  line-height: 42px;
+  margin-top: 20px;
+}
+html body .box .content dd ul li:nth-child(1) {
+  width: 482px;
+  height: 70px;
+  margin-top: 85px;
+}
+html body .box .content dd ul li:nth-child(1) p {
+  width: 184px;
+  height: 70px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html body .box .content dd ul li:nth-child(1) p span {
+  line-height: 60px;
+  font-size: 30px;
+}
+html body .box .content dd ul li:nth-child(1) p img {
+  width: 65px;
+  height: 70px;
+}
+html body .box .content dd ul li:nth-child(3) {
+  position: relative;
+}
+html body .box .content dd ul li:nth-child(3) p {
+  width: 153px;
+  height: 32px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  background-color: #ccc;
+}
+html body .box .content dd ul li:nth-child(4) {
+  position: relative;
+}
+html body .box .content dd ul li:nth-child(4) span {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  color: #11be82;
+}
+html body .box .content dd ul li input {
+  padding-left: 25px;
+  width: 482px;
+  height: 42px;
+  border-bottom: solid 1px #ccc;
+  box-sizing: border-box;
+}
